@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A software engineer+architect who, aside from being a jack-of-all-trades developer, specializes in formal methods engineering in high-assurance and performance-critical settings"
   ),
-  resumeLink:
-    "https://registry.jsonresume.org/HariAmoor-professional", // Set to empty to hide the button
+  resumeLink: "https://registry.jsonresume.org/HariAmoor-professional", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -43,12 +42,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Haskell-supremacist with experience in formal methods engineering, systems programming, and [backend] web development",
+  subTitle:
+    "Haskell-supremacist with experience in formal methods engineering, systems programming, and [backend] web development",
   skills: [
     emoji(
       "⚡ Design, implementation, and analysis of high-assurance software which generally guarantees certain formal, i.e., mathematical, properties in its executable form"
     ),
-    emoji("⚡ Systems engineering, i.e., the development of software with a resource-constrained execution environment (e.g., in terms of throughput, memory, power)"),
+    emoji(
+      "⚡ Systems engineering, i.e., the development of software with a resource-constrained execution environment (e.g., in terms of throughput, memory, power)"
+    ),
     emoji(
       "⚡ Full-stack (mainly backend) web development, usually involving various disparate data sources and sinks across an enterprise cloud"
     )
@@ -78,7 +80,7 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
-// Education 
+// Education
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
