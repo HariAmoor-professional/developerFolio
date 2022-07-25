@@ -26,7 +26,7 @@ const greeting = {
     "A software engineer+architect who, aside from being a jack-of-all-trades developer, specializes in formal methods engineering in high-assurance and performance-critical settings"
   ),
   resumeLink:
-    "https://resume.hariamoor.me", // Set to empty to hide the button
+    "https://registry.jsonresume.org/HariAmoor-professional", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
